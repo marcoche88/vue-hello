@@ -9,12 +9,13 @@ Aggiungere alla pagina un’immagine, la cui sorgente derivi anch'essa dai data 
 // vue in console
 Vue.config.devtools = true;
 
-// inizializzazione vue e stampa a schermo messaggio
+// inizializzazione vue e stampa a schermo messaggio e logo
 const app = new Vue({
     el: "#root",
     data: {
         greeting: "Hello",
         message: "Vue",
+        vueLogo: "https://vuejs.org/images/logo.svg",
     },
     methods: {},
 });

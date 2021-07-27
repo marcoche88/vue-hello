@@ -8,4 +8,10 @@ body {
     font-family: sans-serif;
     padding: 10px;
     font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    margin-top: 20px;
 }
